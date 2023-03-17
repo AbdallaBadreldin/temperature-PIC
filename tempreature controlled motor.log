@@ -1,0 +1,28 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo8 -N"F:\«·ﬂ·Ì…\Micro controller\projects\tempreature controlled motor.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"F:\«·ﬂ·Ì…\Micro controller\projects\" "tempreature controlled motor.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_MemManager.mcl" "__Lib_Conversions.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC_A_C.mcl" "__Lib_EEPROM.mcl" "__Lib_FLASH_RW.mcl" "__Lib_I2C_c34.mcl" "__Lib_PWM_c21.mcl" "__Lib_SPI_c345.mcl" "__Lib_UART_c67.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_CF.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_RS485.mcl" "__Lib_S1D13700.mcl" "__Lib_T6963C.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_EthEnc28j60.mcl" "__Lib_EthEnc24j600.mcl" "__Lib_TouchPanel.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+error: 0	304	F:/«·ﬂ·Ì…/Micro controller/projects/tempreature controlled motor.c:1: error: Can't open include file "16f877a.h"	 
+error: 0	304	    #include <16F877A.h>	 
+error: 0	304	F:/«·ﬂ·Ì…/Micro controller/projects/tempreature controlled motor.c:2: error: Unknown #directive "device"	 
+error: 0	304	    #device ADC=10	 
+error: 0	304	F:/«·ﬂ·Ì…/Micro controller/projects/tempreature controlled motor.c:3: error: Unknown #directive "FUSES"	 
+error: 0	304	    #FUSES NOWDT	 
+error: 0	304	F:/«·ﬂ·Ì…/Micro controller/projects/tempreature controlled motor.c:4: error: Unknown #directive "FUSES"	 
+error: 0	304	    #FUSES NOBROWNOUT	 
+error: 0	304	F:/«·ﬂ·Ì…/Micro controller/projects/tempreature controlled motor.c:5: error: Unknown #directive "FUSES"	 
+error: 0	304	    #FUSES NOLVP	 
+error: 0	304	F:/«·ﬂ·Ì…/Micro controller/projects/tempreature controlled motor.c:6: error: Unknown #directive "use"	 
+error: 0	304	    #use delay(crystal=20000000)	 
+error: 0	304	F:/«·ﬂ·Ì…/Micro controller/projects/tempreature controlled motor.c:7: error: Unknown #directive "byte"	 
+error: 0	304	    #byte lcd=0x08	 
+error: 0	304	F:/«·ﬂ·Ì…/Micro controller/projects/tempreature controlled motor.c:8: error: Unknown #directive "byte"	 
+error: 0	304	    #byte TRIS_lcd=0x88	 
+error: 0	304	F:/«·ﬂ·Ì…/Micro controller/projects/tempreature controlled motor.c:9: error: Unknown #directive "bit"	 
+error: 0	304	    #bit rs=0x06.2	 
+error: 0	304	F:/«·ﬂ·Ì…/Micro controller/projects/tempreature controlled motor.c:10: error: Unknown #directive "bit"	 
+error: 0	304	    #bit en=0x06.3	 
+error: 0	304	F:/«·ﬂ·Ì…/Micro controller/projects/tempreature controlled motor.c:11: error: Unknown #directive "bit"	 
+error: 0	304	    #bit TRIS_rs=0x86.2	 
+error: 0	304	F:/«·ﬂ·Ì…/Micro controller/projects/tempreature controlled motor.c:12: error: Unknown #directive "bit"	 
+error: 0	304	    #bit TRIS_en=0x86.3	 
+error: 0	304	12 errors in preprocessor.	 
+error: 0	102	Finished (with errors): 07 „«—” 2016, 19:19:53	tempreature controlled motor.mcppi
